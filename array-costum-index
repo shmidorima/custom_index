@@ -1,0 +1,18 @@
+/* Hello guys,I'm Midorima,We will investigate "array custom index for php" today. */
+/* We start now!! */
+
+<?php 
+
+$index = array(
+
+"name" => "shintaro",
+"surname" => "midorima",
+"age" => 15
+/* here you can name it as you like */
+);
+
+print_r($index);
+echo $index["surname"]; /* Yes now,here I get the one that is equal to the array names I set in the index variable */
+
+
+?>
